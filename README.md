@@ -267,3 +267,5 @@ if (field==empty) {
 
 The above example might also be inside a function that runs when the user clicks the submit button for the form. The function could also include a loop, which iterates through all of the fields in the form, checking each one. So, as seen in the example, it's important to keep in mind that in Control Flow whenever you read a script, you must not only read from start to finish, but also look at program structure and how it affects order of execution.
 
+## JavaScript Functions 
+
