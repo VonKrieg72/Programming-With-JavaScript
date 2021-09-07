@@ -39,3 +39,9 @@ An expression is any valid unit of code that resolves to a value. There are two 
 -Primary Expressions: Basic keywords and general expressions in JavaScript.
 
 -Left-hand-side expressions: Left values are the destination of an assignment.
+
+## Functions
+
+Functions are one of the fundamental building blocks in JavaScript. A function in JavaScript is similar to a procedure, which is a set of statements that performs a task or calculates a value; however, for a procedure to qualify as a function, it should take some input and return an output.
+
+
