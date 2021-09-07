@@ -251,3 +251,19 @@ var a3 = a.map(s => s.length);
 console.log(a3); // logs [8, 6, 7, 9]
 
 
+## Control Flow
+
+The Control Flow is the order in which the computer executes statements in a script. Unless your computer runs across conditionals and loops, which are very frequent structures that change the control flow, code will be run in order from the first line to the last line. In the example below, a script is used to validate user data from a web page. Validated data is being submitted from the script, however, if the user leaves a required field empty, the script prompts them to fill it in . To do this, the script uses a conditional structure or if....else, so that different code executes depending on whether the form is complete or not.
+
+if (field==empty) {
+    
+    promptUser();
+
+} else {
+    
+    submitForm();
+
+}
+
+The above example might also be inside a function that runs when the user clicks the submit button for the form. The function could also include a loop, which iterates through all of the fields in the form, checking each one. So, as seen in the example, it's important to keep in mind that in Control Flow whenever you read a script, you must not only read from start to finish, but also look at program structure and how it affects order of execution.
+
