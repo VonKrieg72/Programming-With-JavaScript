@@ -330,3 +330,67 @@ function myFunction() {
 }
 
 // code here can NOT use carName
+
+## JavaScript Operators
+
+The assignment operator (=) assigns a value to a variable.
+
+let x = 5;         // assign the value 5 to x
+
+let y = 2;         // assign the value 2 to y
+
+let z = x + y;     // assign the value 7 to z (5 + 2)
+
+let x = 10;
+
+The addition operator (+) adds numbers.
+
+let x = 5;
+
+let y = 2;
+
+let z = x + y;
+
+The multiplication operator (*) multiplies numbers.
+
+let x = 5;
+
+let y = 2;
+
+let z = x * y;
+
+### JavaScript Arithmetic Operators
+
++        Addition
+
+-        Subtraction
+
+*        Multiplication
+
+**       Exponentiation 
+
+/        Division
+
+%        Modulus (Division Remainder)
+
+++       Increment
+
+--       Decrement
+
+### JavaScript Assignment Operators
+
+Operator	 Example	   Same As
+=	          x = y	     x = y
+
++=	        x += y	   x = x + y
+
+-=	        x -= y	   x = x - y
+
+*=	        x *= y	   x = x * y
+
+/=	        x /= y	   x = x / y
+
+%=	        x %= y	   x = x % y
+
+**=	        x **= y	   x = x ** y
+
