@@ -269,3 +269,64 @@ The above example might also be inside a function that runs when the user clicks
 
 ## JavaScript Functions 
 
+JavaScript Function is a block of code that is designed to perform a particular task. It is executed when something invokes (calls) it. When JavaScript Function is invoked, the code inside the function will execute. This will happen  
+
+- When an event occurs (when a user clicks a button)
+
+- When it is invoked (called) from JavaScript code
+
+- Automatically (self invoked)
+
+### JavaScript Function Syntax
+
+A JavaScript Function is defined with the function keyword, followed by a name, followed by a parantheses ( ). The function names can contain letters, digits, underscores, and dollar signs (same rule as variables). The parantheses may include parameter names separated by commas (parameter1, parameter2). The code to be executed, by the function, is placed inside curly brackets { }. 
+
+function name(parameter1, parameter2, parameter3) {
+  
+  // code to be executed
+
+}
+
+In the example above, the function parameters are listed inside the parentheses in the function definition. Function arguments are the values received by the function when it is invoked. Inside the function, the arguments (the parameters) behave as local variables. 
+
+### Function Return
+
+A function will stop executing, when JavaScript reaches a return statement. JavaScript will return to execute the code after the invoking statement, if the function was invoked from a statement. Functions will usaully compute a return value, which is returned back to the caller. 
+
+Calculate the product of two numbers, and return the result:
+
+let x = myFunction(4, 3);   // Function is called, return value will end up in x
+
+function myFunction(a, b) {
+  return a * b;             // Function returns the product of a and b
+}
+
+### Why Functions?
+
+You are able to reuse code. You just have to define the code once, and then you are able to use it many time over, with different arguments, to produce different results. For example,
+
+function toCelsius(fahrenheit) {
+  
+  return (5/9) * (fahrenheit-32);
+
+}
+
+document.getElementById("demo").innerHTML = toCelsius(77);
+
+In the example above, toCelsius refers to the function object, and toCelsius() refers to the function result. So, the () operator invokes the function. If you access a function without (), it will return the function object instead of the function result. 
+
+### Local Variables
+
+Variables that are declared within a JavaScript function, become local to the function. Local variables can only be accessed from within the function. 
+
+// code here can NOT use carName
+
+function myFunction() {
+  
+  let carName = "Volvo";
+  
+  // code here CAN use carName
+
+}
+
+// code here can NOT use carName
